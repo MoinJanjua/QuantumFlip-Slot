@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E02A36D2D4CDBAD00082D0D /* coins.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E02A36C2D4CDBAD00082D0D /* coins.gif */; };
+		4E6C13EE2D50AC140048DBDE /* PlayandflipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13ED2D50AC140048DBDE /* PlayandflipViewController.swift */; };
+		4E6C13F42D50ACDF0048DBDE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13F22D50ACDF0048DBDE /* HistoryViewController.swift */; };
+		4E6C13F52D50ACDF0048DBDE /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13F32D50ACDF0048DBDE /* HistoryTableViewCell.swift */; };
+		4E6C13FA2D50AE250048DBDE /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13F72D50AE250048DBDE /* ScoresViewController.swift */; };
+		4E6C13FB2D50AE250048DBDE /* AddScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13F82D50AE250048DBDE /* AddScoresViewController.swift */; };
+		4E6C13FC2D50AE250048DBDE /* ScoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C13F92D50AE250048DBDE /* ScoresTableViewCell.swift */; };
+		4EE276742D4CB788009C909D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276732D4CB788009C909D /* AppDelegate.swift */; };
+		4EE276762D4CB788009C909D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276752D4CB788009C909D /* SceneDelegate.swift */; };
+		4EE2767B2D4CB788009C909D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE276792D4CB788009C909D /* Main.storyboard */; };
+		4EE276802D4CB78B009C909D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE2767E2D4CB78B009C909D /* LaunchScreen.storyboard */; };
+		4EE2768C2D4CB7E5009C909D /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276882D4CB7E5009C909D /* AboutusViewController.swift */; };
+		4EE2768D2D4CB7E5009C909D /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276892D4CB7E5009C909D /* FeedbackViewController.swift */; };
+		4EE2768E2D4CB7E5009C909D /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2768A2D4CB7E5009C909D /* SideMenuTableViewCell.swift */; };
+		4EE2768F2D4CB7E5009C909D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2768B2D4CB7E5009C909D /* SettingsViewController.swift */; };
+		4EE276952D4CB871009C909D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276912D4CB871009C909D /* iOSDropDown.swift */; };
+		4EE276962D4CB871009C909D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276922D4CB871009C909D /* Helper.swift */; };
+		4EE276982D4CB871009C909D /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE276942D4CB871009C909D /* GifImage.swift */; };
+		4EE2769B2D4CB8AB009C909D /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2769A2D4CB8AB009C909D /* WelcomeScreenViewController.swift */; };
+		4EE2769E2D4CB8F7009C909D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2769D2D4CB8F7009C909D /* DashboardViewController.swift */; };
+		4EE276A02D4CB92E009C909D /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2769F2D4CB92E009C909D /* DashboardCollectionViewCell.swift */; };
+		E45754B32D60807E003E510F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45754B22D60807E003E510F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E02A36C2D4CDBAD00082D0D /* coins.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coins.gif; sourceTree = "<group>"; };
+		4E6C13ED2D50AC140048DBDE /* PlayandflipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayandflipViewController.swift; sourceTree = "<group>"; };
+		4E6C13F22D50ACDF0048DBDE /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4E6C13F32D50ACDF0048DBDE /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4E6C13F72D50AE250048DBDE /* ScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		4E6C13F82D50AE250048DBDE /* AddScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScoresViewController.swift; sourceTree = "<group>"; };
+		4E6C13F92D50AE250048DBDE /* ScoresTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresTableViewCell.swift; sourceTree = "<group>"; };
+		4EE276702D4CB788009C909D /* QuantumFlip Slot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuantumFlip Slot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE276732D4CB788009C909D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EE276752D4CB788009C909D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EE2767A2D4CB788009C909D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EE2767F2D4CB78B009C909D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE276812D4CB78B009C909D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE276882D4CB7E5009C909D /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		4EE276892D4CB7E5009C909D /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4EE2768A2D4CB7E5009C909D /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		4EE2768B2D4CB7E5009C909D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4EE276912D4CB871009C909D /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		4EE276922D4CB871009C909D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4EE276942D4CB871009C909D /* GifImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		4EE2769A2D4CB8AB009C909D /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		4EE2769D2D4CB8F7009C909D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4EE2769F2D4CB92E009C909D /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		E45754B22D60807E003E510F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE2766D2D4CB788009C909D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E6C13EC2D50ABED0048DBDE /* Play and flip */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C13ED2D50AC140048DBDE /* PlayandflipViewController.swift */,
+			);
+			path = "Play and flip";
+			sourceTree = "<group>";
+		};
+		4E6C13F12D50ACAF0048DBDE /* PlayingHistory */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C13F32D50ACDF0048DBDE /* HistoryTableViewCell.swift */,
+				4E6C13F22D50ACDF0048DBDE /* HistoryViewController.swift */,
+			);
+			path = PlayingHistory;
+			sourceTree = "<group>";
+		};
+		4E6C13F62D50ADF40048DBDE /* AddscoreCards */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C13F82D50AE250048DBDE /* AddScoresViewController.swift */,
+				4E6C13F92D50AE250048DBDE /* ScoresTableViewCell.swift */,
+				4E6C13F72D50AE250048DBDE /* ScoresViewController.swift */,
+			);
+			path = AddscoreCards;
+			sourceTree = "<group>";
+		};
+		4EE276672D4CB788009C909D = {
+			isa = PBXGroup;
+			children = (
+				4EE276722D4CB788009C909D /* QuantumFlip Pro */,
+				4EE276712D4CB788009C909D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE276712D4CB788009C909D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE276702D4CB788009C909D /* QuantumFlip Slot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE276722D4CB788009C909D /* QuantumFlip Pro */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C13F62D50ADF40048DBDE /* AddscoreCards */,
+				4E6C13F12D50ACAF0048DBDE /* PlayingHistory */,
+				4E6C13EC2D50ABED0048DBDE /* Play and flip */,
+				4EE2769C2D4CB8DE009C909D /* Dashboard */,
+				4EE276992D4CB87E009C909D /* HomeScreen */,
+				4EE276902D4CB82E009C909D /* Helper */,
+				4EE276872D4CB7A5009C909D /* AppSettings */,
+				4EE276732D4CB788009C909D /* AppDelegate.swift */,
+				4EE276752D4CB788009C909D /* SceneDelegate.swift */,
+				E45754B22D60807E003E510F /* Assets.xcassets */,
+				4EE276792D4CB788009C909D /* Main.storyboard */,
+				4EE2767E2D4CB78B009C909D /* LaunchScreen.storyboard */,
+				4EE276812D4CB78B009C909D /* Info.plist */,
+			);
+			path = "QuantumFlip Pro";
+			sourceTree = "<group>";
+		};
+		4EE276872D4CB7A5009C909D /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				4EE276882D4CB7E5009C909D /* AboutusViewController.swift */,
+				4EE276892D4CB7E5009C909D /* FeedbackViewController.swift */,
+				4EE2768B2D4CB7E5009C909D /* SettingsViewController.swift */,
+				4EE2768A2D4CB7E5009C909D /* SideMenuTableViewCell.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		4EE276902D4CB82E009C909D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4EE276942D4CB871009C909D /* GifImage.swift */,
+				4EE276922D4CB871009C909D /* Helper.swift */,
+				4E02A36C2D4CDBAD00082D0D /* coins.gif */,
+				4EE276912D4CB871009C909D /* iOSDropDown.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4EE276992D4CB87E009C909D /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4EE2769A2D4CB8AB009C909D /* WelcomeScreenViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		4EE2769C2D4CB8DE009C909D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4EE2769D2D4CB8F7009C909D /* DashboardViewController.swift */,
+				4EE2769F2D4CB92E009C909D /* DashboardCollectionViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE2766F2D4CB788009C909D /* QuantumFlip Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE276842D4CB78B009C909D /* Build configuration list for PBXNativeTarget "QuantumFlip Pro" */;
+			buildPhases = (
+				4EE2766C2D4CB788009C909D /* Sources */,
+				4EE2766D2D4CB788009C909D /* Frameworks */,
+				4EE2766E2D4CB788009C909D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuantumFlip Pro";
+			productName = "QuantumFlip Pro";
+			productReference = 4EE276702D4CB788009C909D /* QuantumFlip Slot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE276682D4CB788009C909D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4EE2766F2D4CB788009C909D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4EE2766B2D4CB788009C909D /* Build configuration list for PBXProject "QuantumFlip Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE276672D4CB788009C909D;
+			productRefGroup = 4EE276712D4CB788009C909D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE2766F2D4CB788009C909D /* QuantumFlip Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE2766E2D4CB788009C909D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE276802D4CB78B009C909D /* LaunchScreen.storyboard in Resources */,
+				4EE2767B2D4CB788009C909D /* Main.storyboard in Resources */,
+				4E02A36D2D4CDBAD00082D0D /* coins.gif in Resources */,
+				E45754B32D60807E003E510F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE2766C2D4CB788009C909D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE2768C2D4CB7E5009C909D /* AboutusViewController.swift in Sources */,
+				4EE2768F2D4CB7E5009C909D /* SettingsViewController.swift in Sources */,
+				4E6C13F42D50ACDF0048DBDE /* HistoryViewController.swift in Sources */,
+				4EE276742D4CB788009C909D /* AppDelegate.swift in Sources */,
+				4EE2769B2D4CB8AB009C909D /* WelcomeScreenViewController.swift in Sources */,
+				4EE276982D4CB871009C909D /* GifImage.swift in Sources */,
+				4EE276952D4CB871009C909D /* iOSDropDown.swift in Sources */,
+				4EE2769E2D4CB8F7009C909D /* DashboardViewController.swift in Sources */,
+				4EE276962D4CB871009C909D /* Helper.swift in Sources */,
+				4E6C13F52D50ACDF0048DBDE /* HistoryTableViewCell.swift in Sources */,
+				4EE276A02D4CB92E009C909D /* DashboardCollectionViewCell.swift in Sources */,
+				4E6C13FC2D50AE250048DBDE /* ScoresTableViewCell.swift in Sources */,
+				4E6C13FA2D50AE250048DBDE /* ScoresViewController.swift in Sources */,
+				4EE2768E2D4CB7E5009C909D /* SideMenuTableViewCell.swift in Sources */,
+				4E6C13EE2D50AC140048DBDE /* PlayandflipViewController.swift in Sources */,
+				4E6C13FB2D50AE250048DBDE /* AddScoresViewController.swift in Sources */,
+				4EE2768D2D4CB7E5009C909D /* FeedbackViewController.swift in Sources */,
+				4EE276762D4CB788009C909D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EE276792D4CB788009C909D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE2767A2D4CB788009C909D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EE2767E2D4CB78B009C909D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE2767F2D4CB78B009C909D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE276822D4CB78B009C909D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE276832D4CB78B009C909D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE276852D4CB78B009C909D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuantumFlip Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QuantumFlip Slot";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "QuantumFlip Pro needs access to your photo library to allow you to choose and customize your profile picture. This ensures you can personalize your experience and showcase your unique style in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "QuantumFlip Pro needs access to your photo library to allow you to choose and customize your profile picture. This ensures you can personalize your experience and showcase your unique style in the app.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.QuantumFlip-Pro.sm";
+				PRODUCT_NAME = "QuantumFlip Slot";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4EE276862D4CB78B009C909D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuantumFlip Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QuantumFlip Slot";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "QuantumFlip Pro needs access to your photo library to allow you to choose and customize your profile picture. This ensures you can personalize your experience and showcase your unique style in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "QuantumFlip Pro needs access to your photo library to allow you to choose and customize your profile picture. This ensures you can personalize your experience and showcase your unique style in the app.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.QuantumFlip-Pro.sm";
+				PRODUCT_NAME = "QuantumFlip Slot";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE2766B2D4CB788009C909D /* Build configuration list for PBXProject "QuantumFlip Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE276822D4CB78B009C909D /* Debug */,
+				4EE276832D4CB78B009C909D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE276842D4CB78B009C909D /* Build configuration list for PBXNativeTarget "QuantumFlip Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE276852D4CB78B009C909D /* Debug */,
+				4EE276862D4CB78B009C909D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE276682D4CB788009C909D /* Project object */;
+}

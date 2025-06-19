@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a-captivating-animation-of-a-slot-machin_0LyhlPpWRY651bYRl8CIsA_CV5B-SmuTwOj1Ue2RxiLuQ.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a-vibrant-and-dynamic-animated-slot-mach_LkpoU_D6SDe8fIq0oSJy9A_1FMWuEPDSxKlRyGQi8bHHg.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

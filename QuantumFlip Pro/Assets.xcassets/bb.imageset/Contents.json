@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a-dazzling-animated-slot-machine-backgro_WDOiE4l-SGWpj8fZmNhv9Q_1FMWuEPDSxKlRyGQi8bHHg.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
